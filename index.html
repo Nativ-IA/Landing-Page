@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NativIA · Alfabetización en IA para primaria</title>
+  <meta name="description" content="NativIA enseña a niños de 3.º a 5.º a pensar con la inteligencia artificial en lugar de dejarla pensar por ellos. Su tutor nunca da la respuesta: hace preguntas.">
+  <meta property="og:title" content="NativIA · Nativos de la IA. Dueños de sus preguntas.">
+  <meta property="og:description" content="Alfabetización en inteligencia artificial para 3.º a 5.º de primaria. Un tutor que pregunta en lugar de responder.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta name="theme-color" content="#007895">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/nunito-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="cabecera">
+    <div class="wrap">
+      <a class="logo" href="#" aria-label="NativIA, inicio">
+        <svg viewBox="0 0 64 64" class="mark" aria-hidden="true" focusable="false"><g transform="translate(1,-2)"><path d="M31 47 V30 c0-6 3-8 7-10 c6-3 6-11-1-13 c-6-2-11 1-12 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><path d="M30 44 C21 47 12 42 9 32 C20 29 28 35 30 44 Z" fill="currentColor"></path><path d="M32 47 C38 49 45 46 47 39 C39 36 33 40 32 47 Z" fill="currentColor"></path><circle cx="31" cy="58" r="4" fill="currentColor"></circle></g></svg>
+        <span>Nativ<span class="ia">IA</span></span>
+      </a>
+      <nav aria-label="Secciones">
+        <ul class="menu">
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#ejes">Qué aprenden</a></li>
+          <li><a href="#cuidado">Cuidado de los niños</a></li>
+          <li><a href="#empezar">Cómo empezar</a></li>
+        </ul>
+      </nav>
+      <!-- Dirección de la app. Si cambia el despliegue, se cambia aquí y en el pie. -->
+      <a class="boton boton-secundario" href="https://nativia-732172866623.us-east1.run.app">Entrar a NativIA</a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="portada" aria-labelledby="titulo">
+      <div class="wrap">
+        <div>
+          <h1 id="titulo"><span>Nativos de la&nbsp;IA.</span> <span>Dueños de sus preguntas.</span></h1>
+          <p class="entrada">
+            NativIA enseña a niños de 3.º a 5.º de primaria a pensar con la inteligencia artificial
+            en lugar de dejarla pensar por ellos. Su tutor, Nati, nunca da la
+            respuesta: pregunta hasta que el niño la encuentra y la comprueba por su cuenta.
+          </p>
+          <div class="acciones">
+            <a class="boton boton-principal" href="mailto:equipo@nativia.example?subject=Demostraci%C3%B3n%20de%20NativIA&amp;body=Hola%2C%20equipo%20de%20NativIA.%0A%0ANos%20gustar%C3%ADa%20ver%20la%20plataforma.%0A%0AColegio%3A%0ACiudad%3A%0ACargo%20de%20quien%20escribe%3A%0ATel%C3%A9fono%3A%0A">Solicitar una demostración</a>
+            <a class="boton boton-secundario" href="#como-funciona">Ver cómo funciona</a>
+          </div>
+          <p class="estado">
+            NativIA está en etapa de prototipo y en validación pedagógica. Buscamos colegios de
+            Bogotá para un piloto.
+          </p>
+        </div>
+
+        <section class="prueba" id="prueba" aria-labelledby="prueba-titulo">
+          <div class="prueba-cabeza">
+            <h2 id="prueba-titulo">El repartidor confundido</h2>
+            <p>Actividad de 4.º, matemáticas. Usted responde como el estudiante.</p>
+          </div>
+          <div class="prueba-cuerpo">
+            <p class="problema">
+              María tiene 24 arepas para repartir entre 6 amigos, en partes iguales. Le preguntó a
+              una IA cuántas arepas le tocan a cada uno.
+            </p>
+            <div class="ia-respondio" role="group" aria-label="Respuesta generada por una inteligencia artificial">
+              <p><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 " aria-hidden="true" focusable="false"><rect x="6" y="6" width="12" height="12" rx="2"></rect><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"></path></svg> La IA respondió:</p>
+              <p class="dicho">A cada amigo le tocan 5 arepas.</p>
+              <p class="aviso">Esto lo dijo una IA. Puede equivocarse.</p>
+            </div>
+            <div class="conversacion" role="log" aria-live="polite" aria-label="Conversación con Nati"></div>
+            <div class="opciones" aria-label="Sus respuestas"></div>
+          </div>
+          <p class="prueba-pie">
+            Son las preguntas reales de la actividad, en su versión sin conexión. Con conexión, el
+            niño le escribe a Nati con sus palabras y la regla es la misma: Nati no da el resultado.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <section class="seccion" id="como-funciona" aria-labelledby="como-titulo">
+      <div class="wrap">
+        <h2 id="como-titulo">Un tutor que pregunta en lugar de responder</h2>
+        <p class="intro">
+          Los niños ya usan inteligencia artificial. Lo que nadie les enseña es a dudar de ella, a
+          comprobar lo que dice y a seguir pensando por su cuenta. Esa es la tarea de NativIA.
+        </p>
+        <ul class="hechos">
+          <li>
+            <h3>Nati nunca da el resultado</h3>
+            <p>
+              Es una regla de la plataforma, no un estilo. Cada respuesta del tutor se revisa antes
+              de llegar al niño, y si se le escapa el resultado, se reescribe.
+            </p>
+          </li>
+          <li>
+            <h3>El docente puede leer cada conversación</h3>
+            <p>
+              Lo que el niño habla con Nati queda guardado para su docente titular. Cada vez que
+              alguien abre una conversación, queda registrado quién y cuándo.
+            </p>
+          </li>
+          <li>
+            <h3>Pensado para salas con poca conexión</h3>
+            <p>
+              Tres de los cuatro ejes no usan IA en vivo: no gastan y responden al instante. Si la
+              red se cae en una actividad con Nati, la conversación sigue con preguntas preparadas.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="seccion seccion-gris" id="ejes" aria-labelledby="ejes-titulo">
+      <div class="wrap">
+        <h2 id="ejes-titulo">Cuatro ejes, con el currículo de siempre</h2>
+        <p class="intro">
+          Cada actividad practica matemáticas, lenguaje o ciencias mientras enseña algo sobre la
+          inteligencia artificial. Los niños ven los ejes con su propio nombre.
+        </p>
+        <ul class="ejes">
+          <li class="eje eje-a">
+            <svg viewBox="0 0 48 48" width="56" height="56" class="text-eje-a shrink-0 " aria-hidden="true" focusable="false"><g stroke="none"><circle cx="24" cy="24" r="22" class="fill-eje-a-soft"></circle></g><g transform="translate(12,12)" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="m16.6 7.4-2.3 6.9-6.9 2.3 2.3-6.9z"></path><path d="M12 1.6v2.6M12 19.8v2.6M22.4 12h-2.6M4.2 12H1.6"></path></g></svg>
+            <h3>¿Qué es la IA?</h3>
+            <p class="nombre">Qué es la IA y para qué sirve</p>
+            <p class="lema">Qué puede hacer una IA, qué no puede y por qué se equivoca.</p>
+            <p class="ejemplo">
+              <strong>La máquina que adivina</strong>
+              El niño compite con una máquina que adivina qué número sigue, y descubre por qué falla
+              cuando el patrón cambia.
+            </p>
+          </li>
+          <li class="eje eje-b">
+            <svg viewBox="0 0 48 48" width="56" height="56" class="text-eje-b shrink-0 " aria-hidden="true" focusable="false"><g stroke="none"><rect x="2" y="2" width="44" height="44" rx="14" class="fill-eje-b-soft"></rect></g><g transform="translate(12,12)" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20h12"></path><path d="M10 20c6-2.5.9-6.9 3.2-10.8"></path><path d="M9.7 8.6c1.2.9 2 2.4 2.5 4-2.2.5-3.8.4-5.2-.3C5.7 11.6 4.5 10.2 3.8 7.7c3-.5 4.8 0 5.9.9z"></path><path d="M14.6 5a7.6 7.6 0 0 0-1.2 4.3c2-.1 3.6-.6 4.7-1.5 1-1 1.7-2.5 1.8-5-2.9.1-4.3 1.1-5.3 2.2z"></path></g></svg>
+            <h3>Piensa con la IA</h3>
+            <p class="nombre">Pensar con la IA, no por la IA</p>
+            <p class="lema">Comprobar una respuesta antes de creerla, con Nati como guía.</p>
+            <p class="ejemplo">
+              <strong>El repartidor confundido</strong>
+              Una IA reparte mal 24 arepas entre 6 amigos. Nati lleva al niño a encontrar el error.
+            </p>
+          </li>
+          <li class="eje eje-c">
+            <svg viewBox="0 0 48 48" width="56" height="56" class="text-eje-c shrink-0 " aria-hidden="true" focusable="false"><g stroke="none"><path d="M24 2 43 13v22L24 46 5 35V13z" class="fill-eje-c-soft"></path></g><g transform="translate(12,12)" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="m21 21-5-5"></path></g></svg>
+            <h3>Detective de IA</h3>
+            <p class="nombre">Reconocer lo que hizo una IA</p>
+            <p class="lema">Distinguir lo real de lo que inventó una máquina.</p>
+            <p class="ejemplo">
+              <strong>El animal que no existe</strong>
+              Seis fichas de animales colombianos. Algunas las inventó una IA: ¿cuáles, y cómo se nota?
+            </p>
+          </li>
+          <li class="eje eje-d">
+            <svg viewBox="0 0 48 48" width="56" height="56" class="text-eje-d shrink-0 " aria-hidden="true" focusable="false"><g stroke="none"><rect x="7" y="7" width="34" height="34" rx="10" transform="rotate(45 24 24)" class="fill-eje-d-soft"></rect></g><g transform="translate(12,12)" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v17"></path><path d="M7 21h10"></path><path d="M4 7.5h1.8c1.9 0 4.6-.9 6.2-1.8 1.6.9 4.3 1.8 6.2 1.8H20"></path><path d="m2.5 15 2.8-7.2L8.1 15c-.8.6-1.8.9-2.8.9s-2-.3-2.8-.9"></path><path d="m15.9 15 2.8-7.2L21.5 15c-.8.6-1.8.9-2.8.9s-2-.3-2.8-.9"></path></g></svg>
+            <h3>Decide bien</h3>
+            <p class="nombre">Ética y responsabilidad</p>
+            <p class="lema">Pensar qué es justo cuando se usa una IA.</p>
+            <p class="ejemplo">
+              <strong>La tarea de mi hermanita</strong>
+              La hermanita llora porque no se le ocurre su cuento. ¿Se lo pides a la IA? Cada camino
+              tiene una consecuencia.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="seccion" id="plataforma" aria-labelledby="plataforma-titulo">
+      <div class="wrap">
+        <h2 id="plataforma-titulo">Una herramienta para cada persona del colegio</h2>
+        <div class="roles">
+          <article class="rol">
+            <div class="rol-texto">
+              <p class="quien">Estudiantes</p>
+              <h3>Entran sin correo y sin contraseña</h3>
+              <p>
+                Escriben el código de su curso, tocan su animal y sus tres imágenes secretas. Está
+                pensado para que un niño de 8 años entre solo, en el computador de la sala o en una
+                tableta.
+              </p>
+              <ul>
+                <li>Botón para escuchar cada pantalla en voz alta</li>
+                <li>Letra más grande con un toque</li>
+                <li>Sin fotos: cada niño es un animal ilustrado</li>
+              </ul>
+            </div>
+            <figure class="pantalla">
+              <img src="assets/pantallas/estudiante-ingreso.webp" width="1440" height="1012" loading="lazy"
+                alt="Pantalla de ingreso del estudiante: «¿Cuál eres tú? Toca tu animal», con ocho animales ilustrados y el nombre de cada niño.">
+              <figcaption>Ingreso del estudiante, después de escribir el código del curso.</figcaption>
+            </figure>
+          </article>
+
+          <article class="rol">
+            <div class="rol-texto">
+              <p class="quien">Docentes</p>
+              <h3>Quién necesita ayuda hoy, y por qué</h3>
+              <p>
+                El panel del docente está pensado para leerse en menos de un minuto: primero los
+                estudiantes que necesitan apoyo y el motivo, después lo que mejor y peor va en el
+                grupo.
+              </p>
+              <ul>
+                <li>Sin puntajes ni tablas de posiciones entre niños</li>
+                <li>Alertas cuando un niño escribe algo que preocupa</li>
+                <li>Cada alerta propone una acción concreta</li>
+              </ul>
+            </div>
+            <figure class="pantalla">
+              <img src="assets/pantallas/docente-hoy.webp" width="1440" height="979" loading="lazy"
+                alt="Panel del docente de 4.º B: un estudiante necesita ayuda porque se atasca varias veces en el mismo tipo de ejercicio; debajo, lo que mejor y peor va en el grupo.">
+              <figcaption>Panel del docente, pestaña Hoy.</figcaption>
+            </figure>
+          </article>
+
+          <article class="rol">
+            <div class="rol-texto">
+              <p class="quien">Coordinación</p>
+              <h3>Cursos, docentes y autorizaciones en una sola vista</h3>
+              <p>
+                Coordinación agrega a los estudiantes, asigna docentes y registra las autorizaciones
+                de los acudientes. Ve cifras por curso; el trabajo de cada niño lo ve su docente.
+              </p>
+              <ul>
+                <li>Lo que falta por resolver en cada curso, a la vista</li>
+                <li>Tarjetas de ingreso para imprimir y entregar</li>
+                <li>Cada cambio queda en la auditoría</li>
+              </ul>
+            </div>
+            <figure class="pantalla">
+              <img src="assets/pantallas/coordinacion.webp" width="1440" height="900" loading="lazy"
+                alt="Panel de coordinación de un colegio: cifras del colegio, cursos por atender y la lista de cursos con sus autorizaciones.">
+              <figcaption>Panel de coordinación.</figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion-gris" id="cuidado" aria-labelledby="cuidado-titulo">
+      <div class="wrap">
+        <h2 id="cuidado-titulo">Reglas para cuidar a los niños</h2>
+        <p class="intro">
+          No son opciones que el colegio activa: la plataforma está construida así.
+        </p>
+        <dl class="reglas">
+          <div class="regla">
+            <dt>Sin autorización, el niño no entra</dt>
+            <dd>
+              Un estudiante no puede usar NativIA hasta que el colegio registre la autorización de
+              su acudiente, como pide la Ley 1581 de 2012.
+            </dd>
+          </div>
+          <div class="regla">
+            <dt>Solo los datos necesarios</dt>
+            <dd>
+              Nombre y curso. Sin correo, sin teléfono, sin dirección y sin fotos del niño.
+            </dd>
+          </div>
+          <div class="regla">
+            <dt>Lo que dice una IA se ve distinto</dt>
+            <dd>
+              Las respuestas de una IA aparecen en un recuadro propio que le recuerda al niño que
+              pueden estar equivocadas.
+            </dd>
+          </div>
+          <div class="regla">
+            <dt>Las alertas llegan al docente</dt>
+            <dd>
+              Si un niño escribe algo que indica matoneo, tristeza o maltrato, su docente recibe una
+              alerta y el contenido solo se abre a propósito.
+            </dd>
+          </div>
+          <div class="regla">
+            <dt>Cada colegio ve solo lo suyo</dt>
+            <dd>
+              Los datos de un colegio nunca aparecen en la cuenta de otro, y el equipo de NativIA
+              no ve nombres ni conversaciones de los niños.
+            </dd>
+          </div>
+          <div class="regla">
+            <dt>Sin publicidad ni premios por tiempo de uso</dt>
+            <dd>
+              Los logros se ganan por cómo piensa el niño, no por cuántas horas pasa en la pantalla.
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="seccion" id="empezar" aria-labelledby="empezar-titulo">
+      <div class="wrap">
+        <h2 id="empezar-titulo">Cómo empieza un colegio</h2>
+        <ol class="pasos">
+          <li class="paso">
+            <h3>Le mostramos NativIA</h3>
+            <p>Una sesión con rectoría o coordinación para recorrer la plataforma con datos de prueba.</p>
+          </li>
+          <li class="paso">
+            <h3>Creamos su colegio</h3>
+            <p>Sus sedes, sus cursos de 3.º a 5.º y las cuentas de docentes y coordinación.</p>
+          </li>
+          <li class="paso">
+            <h3>Coordinación prepara los cursos</h3>
+            <p>Agrega a los estudiantes, imprime sus tarjetas y registra las autorizaciones.</p>
+          </li>
+          <li class="paso">
+            <h3>Los niños entran</h3>
+            <p>Con el código de su curso. El docente sigue el avance desde su panel.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="llamado" aria-labelledby="llamado-titulo">
+      <div class="wrap">
+        <div>
+          <h2 id="llamado-titulo">¿Quiere ver NativIA en su colegio?</h2>
+          <p>
+            Escríbanos y le mostramos la plataforma. Estamos buscando colegios de Bogotá para el
+            primer piloto.
+          </p>
+        </div>
+        <div class="acciones">
+          <a class="boton boton-principal" href="mailto:equipo@nativia.example?subject=Demostraci%C3%B3n%20de%20NativIA&amp;body=Hola%2C%20equipo%20de%20NativIA.%0A%0ANos%20gustar%C3%ADa%20ver%20la%20plataforma.%0A%0AColegio%3A%0ACiudad%3A%0ACargo%20de%20quien%20escribe%3A%0ATel%C3%A9fono%3A%0A">Solicitar una demostración</a>
+          <p class="correo">o escriba a <a href="mailto:equipo@nativia.example">equipo@nativia.example</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="wrap">
+      <div>
+        <a class="logo" href="#" aria-label="NativIA, inicio">
+          <svg viewBox="0 0 64 64" class="mark" aria-hidden="true" focusable="false"><g transform="translate(1,-2)"><path d="M31 47 V30 c0-6 3-8 7-10 c6-3 6-11-1-13 c-6-2-11 1-12 6" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path><path d="M30 44 C21 47 12 42 9 32 C20 29 28 35 30 44 Z" fill="currentColor"></path><path d="M32 47 C38 49 45 46 47 39 C39 36 33 40 32 47 Z" fill="currentColor"></path><circle cx="31" cy="58" r="4" fill="currentColor"></circle></g></svg>
+          <span>Nativ<span class="ia">IA</span></span>
+        </a>
+        <p class="lema-marca">Nativos de la IA. Dueños de sus preguntas. Bogotá, Colombia.</p>
+      </div>
+      <nav aria-label="Enlaces del pie">
+        <ul>
+          <li><a href="https://nativia-732172866623.us-east1.run.app">Entrar a NativIA</a></li>
+          <li><a href="mailto:equipo@nativia.example">Contacto</a></li>
+        </ul>
+      </nav>
+      <p class="nota">
+        Los nombres y datos que aparecen en las pantallas son de demostración y no corresponden a
+        ningún niño real.
+      </p>
+    </div>
+  </footer>
+
+  <template id="avatar-nati"><svg viewBox="0 0 48 48" width="40" height="40" class="text-brand shrink-0 " aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="22" class="fill-brand-soft"></circle><g transform="translate(12,12)" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M6 20h12"></path><path d="M10 20c6-2.5.9-6.9 3.2-10.8"></path><path d="M9.7 8.6c1.2.9 2 2.4 2.5 4-2.2.5-3.8.4-5.2-.3C5.7 11.6 4.5 10.2 3.8 7.7c3-.5 4.8 0 5.9.9z"></path><path d="M14.6 5a7.6 7.6 0 0 0-1.2 4.3c2-.1 3.6-.6 4.7-1.5 1-1 1.7-2.5 1.8-5-2.9.1-4.3 1.1-5.3 2.2z"></path></g></svg></template>
+  <template id="avatar-nino"><svg viewBox="0 0 48 48" width="40" height="40" class="text-eje-c shrink-0 " aria-hidden="true" focusable="false"><path d="M22 14.5 30 4l4.5 10.5z" class="fill-eje-c"></path><circle cx="19" cy="27" r="12.5" class="fill-eje-c"></circle><path d="M25 19.5c8 2.5 16 6 20.8 8.1.8.4.8 1 0 1.4C41 31 33 33 25 34.5z" class="fill-eje-c"></path><path d="M10 18 13 2.5 23.5 14z" class="fill-eje-c"></path><path d="M13.6 16.4 15.1 7l5.6 7.6z" class="fill-eje-c-soft"></path><ellipse cx="21.5" cy="23.5" rx="2.9" ry="2" transform="rotate(-18 21.5 23.5)" class="fill-eje-c-soft"></ellipse></svg></template>
+
+  <script src="prueba.js" defer></script>
+</body>
+</html>
